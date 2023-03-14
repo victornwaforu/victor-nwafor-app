@@ -1,26 +1,32 @@
 {
-  "name": "fcc-api-projects-boilerplate",
+  "name": "victor-nwafor-app",
   "version": "0.0.1",
-  "description": "An FCC Backend Challenge",
+  "description": "A FCC Backend Challenge",
+  "engines": {
+    "node": "18.x || 16.x"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "dependencies": {
-    "express": "^4.12.4",
+    "ejs": "^3.1.5",
+    "express": "^4.15.2",
     "cors": "^2.8.0"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
+    "url": "https://github.com/victornwaforu/victor-nwafor-app"
   },
-  "bugs": {
-    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
-  },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
-  "author": "freeCodeCamp <team@freecodecamp.org>",
   "keywords": [
     "node",
+    "heroku",
+    "hyperdev",
     "express",
     "freeCodeCamp"
   ],
